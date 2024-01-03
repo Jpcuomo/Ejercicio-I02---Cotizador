@@ -31,7 +31,7 @@ namespace Billetes
 
 
         // Propiedades de Dolar
-        private static double GetCotizacion
+        public static double GetCotizacion
         {
             get { return _cotizRespectoDolar; }
         }

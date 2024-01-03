@@ -96,7 +96,7 @@ namespace Billetes
         //Sobrecarga de operador - entre Euro Dolar
         public static Euro operator -(Euro e, Dolar d)
         {
-            return new Euro(e.GetCantidad + ((Euro)d).GetCantidad);
+            return new Euro(e.GetCantidad - ((Euro)d).GetCantidad);
         }
     }
 }
